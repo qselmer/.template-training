@@ -9,7 +9,7 @@ Template for scientific teaching repositories, including single classes, worksho
 The structure separates metadata, teaching content, computation, assessment, and publication workflows so that materials can be reused across quantitative and computational science topics. The current implementation uses Quarto for rendering and site generation, but the repository architecture is not tied to a single authoring system.
 
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="35%" align="center" valign="middle">
 
 <img src="assets/images/logo.svg" alt="Scientific training repository logo" width="180"/>
 

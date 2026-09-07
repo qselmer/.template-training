@@ -11,7 +11,7 @@ The structure separates metadata, teaching content, computation, assessment, and
 </td>
 <td width="35%" align="center" valign="middle">
 
-<img src="assets/images/logo.svg" alt="Scientific training repository logo" width="180"/>
+<img src="assets/images/logo.svg" alt="Scientific training repository logo" width="250"/>
 
 </td>
 </tr>

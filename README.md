@@ -1,88 +1,88 @@
-# Universal Quarto Teaching Template
+# Plantilla universal de docencia con Quarto
 
-Reusable teaching infrastructure maintained by **Elmer Quispe-Salazar** for classes, workshops, short courses, seminars, and semester courses.
+Infraestructura reutilizable mantenida por **Elmer Quispe-Salazar** para clases, talleres, cursos cortos, seminarios y cursos semestrales.
 
-This repository is the **template source**. Repositories created from it should contain the actual teaching activity and use the GitHub topic `type-training`. The template repository itself remains `type-template`.
+Este repositorio es la **plantilla fuente**. Los repositorios creados a partir de ella deben contener la actividad docente real y usar el topic de GitHub `type-training`. Este repositorio plantilla se mantiene como `type-template`.
 
-## Design goals
+## Objetivos de diseño
 
-The template is built around five principles:
+La plantilla sigue cinco principios:
 
-1. **Learning-first structure** — every module starts from questions, learning objectives, prerequisites, and estimated time.
-2. **Topic-level modularity** — notes, slides, labs, exercises, and instructor notes for one topic live together.
-3. **Reproducible computation** — R, Python, Julia, C++, notebooks, bibliography, code, and small teaching data can coexist in one Quarto project.
-4. **Multiple delivery modes** — the same structure works for a single class, workshop, short course, or semester course.
-5. **Academic integration** — repository metadata can feed `qselmer.github.io/teaching/` and the GitHub academic profile.
+1. **Estructura centrada en el aprendizaje**: cada módulo parte de una pregunta, objetivos de aprendizaje, prerrequisitos y tiempo estimado.
+2. **Modularidad por tema**: notas, diapositivas, prácticas, ejercicios y notas del instructor de un mismo tema se mantienen juntos.
+3. **Computación reproducible**: R, Python, Julia, C++, notebooks, bibliografía, código y pequeños datos docentes pueden convivir en un solo proyecto Quarto.
+4. **Múltiples modalidades**: la misma estructura sirve para una clase única, un taller, un curso corto o un curso semestral.
+5. **Integración académica**: los metadatos del repositorio pueden alimentar `qselmer.github.io/teaching/` y el perfil académico de GitHub.
 
-## Repository structure
+## Estructura del repositorio
 
 ```text
 .
-├── template.yml                 # metadata for this template itself
-├── repo.yml                     # metadata seed for the generated teaching repository
-├── course.yml                   # teaching-activity metadata
-├── _quarto.yml                  # Quarto website configuration
-├── index.qmd                    # public landing page
-├── syllabus.qmd                 # scope, policies, outcomes
-├── schedule.qmd                 # timetable / sequence
-├── setup.qmd                    # learner setup and prerequisites
+├── template.yml                 # metadatos de esta plantilla
+├── repo.yml                     # metadatos base del repositorio docente generado
+├── course.yml                   # metadatos de la actividad docente
+├── _quarto.yml                  # configuración del sitio Quarto
+├── index.qmd                    # portada pública
+├── syllabus.qmd                 # alcance, políticas y resultados esperados
+├── schedule.qmd                 # cronograma o secuencia
+├── setup.qmd                    # instalación y prerrequisitos
 │
 ├── modules/
 │   ├── index.qmd
 │   └── 01-topic/
-│       ├── module.yml           # structured module metadata
-│       ├── index.qmd            # lesson / lecture notes
-│       ├── slides.qmd           # reveal.js slides
-│       ├── lab.qmd              # guided practical
-│       ├── exercise.qmd         # formative practice
-│       └── instructor-notes.md  # timing, misconceptions, teaching notes
+│       ├── module.yml           # metadatos estructurados del módulo
+│       ├── index.qmd            # notas de clase o lección
+│       ├── slides.qmd           # diapositivas reveal.js
+│       ├── lab.qmd              # práctica guiada
+│       ├── exercise.qmd         # ejercicio formativo
+│       └── instructor-notes.md  # tiempos, errores frecuentes y notas docentes
 │
-├── assignments/                 # optional take-home or assessed work
-├── project/                     # optional capstone / applied project
-├── resources/                   # readings, links, cheatsheets
-├── data/                        # small teaching data only
-├── code/                        # reusable scripts/functions
-├── environment/                 # reproducibility instructions / lockfiles
-├── assets/                      # CSS and images
-├── docs/                        # template documentation
-├── scripts/                     # validation utilities
+├── assignments/                 # tareas o evaluaciones opcionales
+├── project/                     # proyecto aplicado o capstone opcional
+├── resources/                   # lecturas, enlaces y material de apoyo
+├── data/                        # solo datos docentes pequeños
+├── code/                        # scripts y funciones reutilizables
+├── environment/                 # reproducibilidad, dependencias y lockfiles
+├── assets/                      # CSS e imágenes
+├── docs/                        # documentación de la plantilla
+├── scripts/                     # utilidades de validación
 ├── references.bib
 ├── CITATION.cff
 ├── CONTRIBUTING.md
 └── .github/workflows/publish.yml
 ```
 
-## Authoring standard
+## Estándar de autoría
 
-Use **Quarto `.qmd` as the canonical source format**. Keep `.Rmd` only when migrating legacy material. A module should be self-contained enough to be reused or reordered without reorganizing the entire course.
+Usa **Quarto `.qmd` como formato fuente canónico**. Conserva `.Rmd` solo durante la migración de material antiguo. Cada módulo debe ser suficientemente autocontenido para poder reutilizarse, reordenarse o adaptarse a otro curso sin reorganizar todo el repositorio.
 
-## Create a new teaching repository
+## Crear un nuevo repositorio docente
 
-1. Select **Use this template → Create a new repository**.
-2. Give the repository a short descriptive name, e.g. `git-github-teaching`, `stock-assessment-teaching`, or `spatial-models-workshop`.
-3. Replace placeholders in `repo.yml`, `course.yml`, `_quarto.yml`, `CITATION.cff`, and the `.qmd` files.
-4. Add exactly one repository-type topic: `type-training`.
-5. Add `site-teaching` when the activity should be listed on the academic website.
-6. Add subject topics such as `stock-assessment`, `mse`, `r`, `python`, `spatiotemporal-models`, or `fisheries`.
-7. Open **Settings → Pages → Build and deployment → Source = GitHub Actions**.
-8. Push to `main`; validation and publication run automatically.
+1. Selecciona **Use this template → Create a new repository**.
+2. Usa un nombre corto y descriptivo, por ejemplo `git-github-teaching`, `stock-assessment-teaching` o `spatial-models-workshop`.
+3. Reemplaza los placeholders de `repo.yml`, `course.yml`, `_quarto.yml`, `CITATION.cff` y los archivos `.qmd`.
+4. Añade exactamente un topic de tipo: `type-training`.
+5. Añade `site-teaching` cuando la actividad deba aparecer en tu web académica.
+6. Añade topics temáticos como `stock-assessment`, `mse`, `r`, `python`, `spatiotemporal-models` o `fisheries` según corresponda.
+7. En el repositorio docente real, abre **Settings → Pages → Build and deployment → Source = GitHub Actions**.
+8. Haz `push` a `main`; la validación y publicación se ejecutarán automáticamente.
 
-See [`docs/USING_TEMPLATE.md`](docs/USING_TEMPLATE.md) for the full workflow.
+Consulta [`docs/USING_TEMPLATE.md`](docs/USING_TEMPLATE.md) para el flujo completo.
 
-## Template behavior
+## Comportamiento de la plantilla
 
-The template repository is validated and rendered on every push but is **not deployed to GitHub Pages**. A repository created from this template will deploy after Pages is enabled.
+Este repositorio plantilla se **valida y renderiza** en cada `push`, pero **no se publica en GitHub Pages**. Un repositorio docente creado a partir de esta plantilla sí se publicará cuando GitHub Pages esté habilitado en ese repositorio.
 
-## Integration
+## Integración
 
-The intended flow is:
+El flujo esperado es:
 
 ```text
-teaching repository
+repositorio docente
       │
-      ├── GitHub Pages course site
-      ├── qselmer.github.io/teaching/ catalogue entry
-      └── qselmer GitHub profile classification
+      ├── sitio del curso en GitHub Pages
+      ├── entrada en qselmer.github.io/teaching/
+      └── clasificación en el perfil académico de GitHub
 ```
 
-See [`docs/INTEGRATION.md`](docs/INTEGRATION.md).
+Consulta [`docs/INTEGRATION.md`](docs/INTEGRATION.md).

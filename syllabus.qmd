@@ -2,20 +2,39 @@
 title: "Syllabus"
 ---
 
-## Audience
+## Description
 
-Define the intended audience and prerequisites.
+SHORT_DESCRIPTION
 
-## Format
+## Learning outcomes
 
-Describe delivery mode, duration, and expected workload.
+- OUTCOME_1
+- OUTCOME_2
+- OUTCOME_3
 
-## Schedule
+## Audience and level
 
-| Session | Topic | Objectives | Materials |
-|---|---|---|---|
-| 01 | First topic | Core objectives | Lesson + slides + exercise |
+- **Audience:** AUDIENCE
+- **Level:** LEVEL
+- **Delivery:** DELIVERY_MODE
+- **Venue:** VENUE_OR_INSTITUTION
 
-## Assessment or participation
+## Prerequisites
 
-Describe exercises, assignments, or participation requirements when applicable.
+State the conceptual, mathematical, programming, and software prerequisites. Keep prerequisites minimal and link to [Setup](setup.qmd) for installation details.
+
+## Course structure
+
+The course is organized into topic-level modules. Each module may include lesson notes, slides, a guided lab, formative exercises, and instructor notes.
+
+## Assessment
+
+Describe assessment only when relevant. For workshops or non-assessed training, state that exercises are formative.
+
+## Reproducibility
+
+Specify the computational environment used by the course. See `environment/README.md` for supported patterns for R, Python, Julia, and mixed-language courses.
+
+## Materials and citation
+
+Teaching materials are version-controlled in GitHub. Add an explicit content/code license before public release and keep `CITATION.cff` current.

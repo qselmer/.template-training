@@ -1,0 +1,7 @@
+---
+title: "Assignments"
+---
+
+Use this section for take-home, graded, or multi-step work. For workshops with no formal assessment, remove this item from the navbar or state that no assignments are required.
+
+- [Assignment 01](01-assignment.qmd)

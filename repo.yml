@@ -1,4 +1,4 @@
-schema_version: 1
+schema_version: 2
 repository:
   owner: qselmer
   name: REPO_NAME
@@ -7,6 +7,7 @@ repository:
   status: active
   visibility: public
   description: "SHORT_DESCRIPTION"
+  template_source: qselmer/.template-training
   topics:
     - type-training
     - site-teaching
@@ -14,7 +15,10 @@ repository:
     - reproducible-research
 integration:
   github_pages: true
-  website_section: teaching
-  profile_include: true
-  website_url: "https://qselmer.github.io/REPO_NAME/"
+  website:
+    include: true
+    section: teaching
+    url: "https://qselmer.github.io/REPO_NAME/"
+  profile:
+    include: true
   repository_url: "https://github.com/qselmer/REPO_NAME"

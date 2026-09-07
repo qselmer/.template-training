@@ -1,0 +1,24 @@
+---
+title: "Assignment 01 · ASSIGNMENT_TITLE"
+---
+
+## Purpose
+
+State which learning outcomes this assignment assesses.
+
+## Task
+
+Describe the scientific or analytical problem and required work.
+
+## Deliverables
+
+- DELIVERABLE_1
+- DELIVERABLE_2
+
+## Evaluation
+
+Provide transparent criteria or a rubric when the work is assessed.
+
+## Reproducibility requirements
+
+Specify required scripts, notebooks, environment information, data provenance, and output files.

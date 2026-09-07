@@ -1,0 +1,20 @@
+---
+title: "Exercise · TOPIC_TITLE"
+---
+
+## Challenge
+
+Provide a focused task that can be completed without introducing a new major concept.
+
+## Expected output
+
+Describe the expected analytical product, figure, interpretation, or code behavior without giving away the solution.
+
+## Hints
+
+1. HINT_1
+2. HINT_2
+
+## Extension
+
+Add an optional harder variation for advanced learners or longer sessions.

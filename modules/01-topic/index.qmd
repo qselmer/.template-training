@@ -1,0 +1,52 @@
+---
+title: "01 · TOPIC_TITLE"
+---
+
+**Estimated time:** 90 minutes  
+**Preparation:** PREPARATION_ITEM
+
+## Questions
+
+- QUESTION_1
+- QUESTION_2
+
+## Learning objectives
+
+After completing this module, learners should be able to:
+
+- OBJECTIVE_1
+- OBJECTIVE_2
+
+## Why this matters
+
+Connect the topic to an authentic scientific, analytical, or professional problem.
+
+## Core concepts
+
+Explain the minimum theory required to perform the task correctly. Prefer clear notation, diagrams, and small examples over long uninterrupted exposition.
+
+## Worked example
+
+Demonstrate the complete reasoning or analytical workflow with one representative example.
+
+## Guided practice
+
+Move from demonstration to learner participation. Link to the [lab](lab.qmd) when a longer practical is needed.
+
+## Checkpoint
+
+Ask one short question or task that reveals whether learners can apply the central idea before moving on.
+
+## Independent practice
+
+Use the [exercise](exercise.qmd) for a short formative challenge.
+
+## Key takeaways
+
+- TAKEAWAY_1
+- TAKEAWAY_2
+- TAKEAWAY_3
+
+## Further reading
+
+Add only resources that materially extend the module.

@@ -1,23 +1,33 @@
-schema_version: 1
+schema_version: 2
 course:
   title: COURSE_TITLE
   short_title: SHORT_TITLE
   role: Instructor
-  type: Course
+  type: COURSE_TYPE
   status: active
   language: English
+  level: LEVEL
   audience: "AUDIENCE"
-  venue: "VENUE_OR_INSTITUTION"
-  start_date: YYYY-MM-DD
-  end_date: YYYY-MM-DD
   description: "SHORT_DESCRIPTION"
+  delivery:
+    mode: DELIVERY_MODE
+    venue: "VENUE_OR_INSTITUTION"
+    timezone: "America/Lima"
+    start_date: YYYY-MM-DD
+    end_date: YYYY-MM-DD
+    contact_hours: 0
+  prerequisites:
+    - "PREREQUISITE_1"
   learning_outcomes:
-    - "Outcome 1"
-    - "Outcome 2"
-    - "Outcome 3"
+    - "OUTCOME_1"
+    - "OUTCOME_2"
+    - "OUTCOME_3"
+  assessment:
+    enabled: false
+    components: []
   topics:
-    - "Topic 1"
-    - "Topic 2"
+    - "TOPIC_1"
+    - "TOPIC_2"
 links:
   repository: "https://github.com/qselmer/REPO_NAME"
   website: "https://qselmer.github.io/REPO_NAME/"

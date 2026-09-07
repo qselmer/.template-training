@@ -7,27 +7,41 @@ website:
   site-url: "https://qselmer.github.io/REPO_NAME/"
   repo-url: "https://github.com/qselmer/REPO_NAME"
   repo-actions: [source, issue]
+  search: true
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: syllabus.qmd
         text: Syllabus
-      - text: Lessons
-        menu:
-          - href: lessons/01-topic/index.qmd
-            text: "01 · First topic"
-      - href: exercises/index.qmd
-        text: Exercises
+      - href: schedule.qmd
+        text: Schedule
+      - href: setup.qmd
+        text: Setup
+      - href: modules/index.qmd
+        text: Modules
+      - href: assignments/index.qmd
+        text: Assignments
+      - href: project/index.qmd
+        text: Project
       - href: resources/index.qmd
         text: Resources
+    right:
+      - href: https://qselmer.github.io
+        text: Instructor
+  page-footer:
+    left: "COURSE_TITLE · Elmer Quispe-Salazar"
+    right: "Teaching materials built with Quarto"
 
 format:
   html:
     theme: cosmo
     toc: true
+    toc-depth: 3
     code-copy: true
     code-overflow: wrap
+    link-external-newwindow: true
+    smooth-scroll: true
     css: assets/css/styles.css
 
 execute:

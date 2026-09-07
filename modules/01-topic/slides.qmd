@@ -1,0 +1,32 @@
+---
+title: "TOPIC_TITLE"
+subtitle: "COURSE_TITLE"
+author: "Elmer Quispe-Salazar"
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+    chalkboard: false
+---
+
+## Why this topic?
+
+- Scientific or analytical motivation
+- What learners will be able to do
+
+## QUESTION_1
+
+Introduce the core idea visually.
+
+## Worked example
+
+Show one concise example, then switch to the lesson/lab for details.
+
+## Checkpoint
+
+> What decision or calculation would you make next?
+
+## Takeaways
+
+- TAKEAWAY_1
+- TAKEAWAY_2

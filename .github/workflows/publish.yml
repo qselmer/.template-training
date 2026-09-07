@@ -1,7 +1,9 @@
-name: Publish course site
+name: Validate and publish course site
 
 on:
   push:
+    branches: [main]
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -11,11 +13,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "teaching-site-${{ github.ref }}"
   cancel-in-progress: true
-
-env:
-  TEMPLATE_REPOSITORY: qselmer/.template-training
 
 jobs:
   build:
@@ -24,20 +23,34 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate repository structure
+        shell: bash
+        run: |
+          if [[ "${{ github.repository }}" == "qselmer/.template-training" ]]; then
+            python scripts/validate_structure.py --template
+          else
+            python scripts/validate_structure.py
+          fi
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render course site
         run: quarto render
 
-      - name: Upload GitHub Pages artifact
-        if: github.repository != env.TEMPLATE_REPOSITORY
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request' && github.repository != 'qselmer/.template-training'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
-    if: github.repository != 'qselmer/.template-training'
+    if: github.event_name != 'pull_request' && github.repository != 'qselmer/.template-training'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

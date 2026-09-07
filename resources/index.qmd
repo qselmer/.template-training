@@ -2,6 +2,20 @@
 title: "Resources"
 ---
 
-## References
+Keep this page curated. A short list of high-value resources is more useful than a large unsorted link collection.
 
-Add selected readings, documentation, datasets, and external resources.
+## Core references
+
+Add books, articles, manuals, or documentation used repeatedly across modules.
+
+## Cheatsheets and quick reference
+
+Add concise learner-facing reference material.
+
+## External software documentation
+
+Link to authoritative project documentation rather than copying installation or API instructions that will become stale.
+
+## Additional learning
+
+Add optional resources clearly separated from required preparation.

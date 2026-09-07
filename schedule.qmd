@@ -1,0 +1,17 @@
+---
+title: "Schedule"
+---
+
+Use one row per session or module. For a one-day workshop, use clock times; for a semester course, use week/date.
+
+| Session | Topic | Format | Preparation | Estimated time |
+|---:|---|---|---|---:|
+| 1 | [TOPIC_TITLE](modules/01-topic/index.qmd) | lesson + lab | setup complete | 90 min |
+| 2 | TOPIC_2 | lesson + exercise | module 1 | 90 min |
+
+## Delivery notes
+
+- Keep lecture blocks short enough to alternate explanation with practice.
+- Add breaks explicitly for intensive workshops.
+- Link pre-class readings or exercises in the Preparation column.
+- Update this page whenever modules are reordered.

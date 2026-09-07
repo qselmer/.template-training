@@ -1,0 +1,38 @@
+---
+title: "Lab · TOPIC_TITLE"
+---
+
+## Purpose
+
+Apply the module concepts to a realistic dataset, model, or reproducible workflow.
+
+## Objectives
+
+- OBJECTIVE_1
+- OBJECTIVE_2
+
+## Inputs
+
+Document the data, packages, scripts, or files required for this lab.
+
+## Workflow
+
+### 1. Inspect
+
+Understand the inputs before modelling or transforming them.
+
+### 2. Implement
+
+Build the analysis in small reproducible steps.
+
+### 3. Diagnose
+
+Check assumptions, intermediate outputs, warnings, and failure modes.
+
+### 4. Interpret
+
+Connect numerical or graphical results back to the scientific question.
+
+## Deliverable
+
+State exactly what the learner should produce by the end of the lab.

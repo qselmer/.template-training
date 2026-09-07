@@ -1,0 +1,39 @@
+---
+title: "Setup"
+---
+
+Complete setup **before the first computational session**.
+
+## Core requirements
+
+- Git and a GitHub account when version control is part of the activity.
+- Quarto for rendering course materials locally.
+- A text editor or IDE appropriate to the language used in class.
+
+## Computational environment
+
+Only keep the sections that apply to the course.
+
+### R
+
+Record the required R version and packages. Use `renv` for courses where exact package versions matter.
+
+### Python
+
+Record the Python version and dependencies. Use `requirements.txt`, `environment.yml`, or another explicit environment specification.
+
+### Julia
+
+Record the Julia version and use `Project.toml` / `Manifest.toml` when reproducibility is required.
+
+### C++ or compiled tools
+
+Document compilers, system libraries, and platform-specific requirements.
+
+## Verification
+
+Give learners one minimal command or task that confirms their environment works before class.
+
+## Data
+
+Small teaching datasets may live in `data/`. Large, restricted, sensitive, or externally maintained data should be downloaded from an authoritative source instead of committed to Git.

@@ -1,0 +1,22 @@
+---
+title: "Modules"
+---
+
+Modules are the primary teaching units. Keep each module focused on a coherent set of concepts or skills.
+
+| Module | Topic | Main components |
+|---:|---|---|
+| 01 | [TOPIC_TITLE](01-topic/index.qmd) | notes · slides · lab · exercise |
+
+## Standard module pattern
+
+Each module contains:
+
+- `module.yml` — order, duration, questions, and objectives;
+- `index.qmd` — learner-facing lesson notes;
+- `slides.qmd` — presentation slides;
+- `lab.qmd` — guided practical work;
+- `exercise.qmd` — formative practice;
+- `instructor-notes.md` — timing, misconceptions, adaptations, and post-class notes.
+
+Copy `01-topic/`, rename it with the next numeric prefix, and update the module metadata.

@@ -1,0 +1,22 @@
+---
+title: "Applied project"
+---
+
+Use this section when learners integrate several modules in a capstone or authentic scientific analysis. Remove it from the navbar for activities that do not need a project.
+
+## Scientific question
+
+PROJECT_QUESTION
+
+## Required components
+
+- problem formulation;
+- reproducible data workflow;
+- appropriate quantitative method;
+- diagnostics and uncertainty;
+- scientific interpretation;
+- concise communication of results.
+
+## Deliverable
+
+PROJECT_DELIVERABLE

@@ -1,0 +1,15 @@
+schema_version: 1
+template:
+  owner: qselmer
+  repository: .template-training
+  type: type-template
+  produces: type-training
+  canonical_format: qmd
+  framework: quarto
+  scope:
+    - class
+    - workshop
+    - short-course
+    - seminar
+    - semester-course
+  description: "Reusable Quarto infrastructure for scientific teaching and training repositories."

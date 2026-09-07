@@ -1,8 +1,12 @@
 _site/
 .quarto/
 .Rhistory
+.RData
 .Rproj.user/
 __pycache__/
 *.pyc
 .DS_Store
-Thumbs.db
+.env
+.venv/
+venv/
+.ipynb_checkpoints/

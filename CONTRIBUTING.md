@@ -1,23 +1,31 @@
 # Contributing
 
-Corrections and improvements to public teaching materials are welcome through issues or pull requests.
+Contributions should improve clarity, reproducibility, or instructional value without weakening the repository structure.
 
-## Content changes
+## Teaching content
 
-- Preserve the module structure and numeric ordering.
-- Keep learning objectives observable and specific.
-- Add or update references when factual content changes.
-- Do not add private student information, credentials, restricted datasets, or confidential assessment material.
+- Keep modules self-contained and numerically ordered.
+- State learning objectives in observable terms.
+- Distinguish explanation, worked examples, guided practice, and independent exercises.
+- Update references when scientific or technical content changes.
+- Do not include confidential assessments, student information, credentials, or restricted data.
 
-## Code changes
+## Code and data
 
 - Prefer small reproducible examples.
-- Document dependencies and data provenance.
-- Confirm `quarto render` succeeds before merging.
+- Document dependencies, assumptions, inputs, outputs, and data provenance.
+- Keep shared code in `code/`; keep module-specific code with the module when portability is more useful.
+- Commit only small, redistributable teaching datasets.
+
+## Validation
+
+Before merging changes, run:
+
+```bash
+python scripts/validate_structure.py
+quarto render
+```
 
 ## Accessibility
 
-- Provide useful alt text for instructional images.
-- Do not rely on color alone to convey meaning.
-- Use descriptive link text and hierarchical headings.
-- Keep tables simple enough to remain interpretable on narrow screens.
+Use informative alternative text, descriptive links, hierarchical headings, and simple tables. Do not rely on colour alone to communicate information.

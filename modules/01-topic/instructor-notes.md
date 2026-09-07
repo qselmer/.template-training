@@ -1,17 +1,17 @@
-# Instructor notes · TOPIC_TITLE
+# Instructor notes: TOPIC_TITLE
 
-These notes are not included in the public course navigation. **They are still visible in the source of a public repository**, so never store confidential assessments, student information, credentials, or restricted solutions here.
+These notes support delivery of the module. They are not included in the public course navigation, but they remain visible in a public repository. Do not store confidential assessments, student information, credentials, or restricted material here.
 
 ## Timing
 
-- Opening / motivation: 10 min
+- Introduction and motivation: 10 min
 - Core concept: 20 min
 - Worked example: 15 min
-- Guided lab: 30 min
-- Checkpoint / discussion: 10 min
-- Wrap-up: 5 min
+- Guided practical: 30 min
+- Checkpoint and discussion: 10 min
+- Summary: 5 min
 
-## Anticipated misconceptions
+## Common difficulties
 
 - MISCONCEPTION_1
 - MISCONCEPTION_2
@@ -20,16 +20,16 @@ These notes are not included in the public course navigation. **They are still v
 
 - CHECKPOINT_QUESTION_1
 
-## Adaptations
+## Adaptation
 
-### Short version
+### Short format
 
-Identify material that can be removed for a 45–60 minute class.
+Identify material that can be omitted for a 45–60 minute class.
 
-### Extended version
+### Extended format
 
-Identify deeper derivations, additional datasets, or advanced exercises.
+Identify additional derivations, datasets, diagnostics, or advanced exercises.
 
-## Post-class notes
+## Post-delivery record
 
-Record what worked, what failed, timing changes, and revisions for the next delivery.
+Document timing, recurring difficulties, successful examples, and revisions required before the next delivery.

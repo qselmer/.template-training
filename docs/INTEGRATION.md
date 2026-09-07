@@ -1,28 +1,28 @@
 # Academic integration
 
-Teaching repositories have three public roles.
+Teaching repositories connect the source repository, the published teaching site, the academic website, and the GitHub profile.
 
-## 1. Repository
+## Repository
 
-The GitHub repository is the source of truth for teaching content, metadata, code, small redistributable data, and revision history.
+The GitHub repository is the source of record for teaching content, metadata, code, small redistributable data, and revision history.
 
-## 2. Course site
+## Teaching site
 
-GitHub Actions renders Quarto to GitHub Pages:
+The current workflow renders the repository and publishes the generated site through GitHub Pages.
 
 ```text
 https://qselmer.github.io/REPO_NAME/
 ```
 
-The course site serves learners. It should not duplicate the full academic biography or website navigation.
+The teaching site is intended for learners and should remain focused on the activity itself.
 
-## 3. Academic website
+## Academic website
 
-`qselmer.github.io/teaching/` is the central academic catalogue. It should contain one concise record per verified teaching activity and link to the course site and repository.
+`qselmer.github.io/teaching/` acts as the catalogue of teaching activities. Each verified activity should have a concise record linking to the repository and, when available, the published teaching site.
 
-## 4. GitHub profile
+## GitHub profile
 
-The profile classifies repositories using the canonical GitHub topic:
+Use one canonical repository-type topic:
 
 ```text
 type-training
@@ -34,8 +34,8 @@ Use:
 site-teaching
 ```
 
-when the course should also appear in the website teaching catalogue.
+when the activity should also appear in the website catalogue.
 
-## Metadata contract
+## Metadata
 
-`repo.yml` identifies the repository and integration behavior. `course.yml` describes the actual teaching activity. Module-specific structure belongs in `module.yml`.
+`repo.yml` describes repository-level metadata and integration behaviour. `course.yml` describes the teaching activity. `module.yml` describes an individual teaching module.

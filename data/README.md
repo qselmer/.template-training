@@ -1,13 +1,13 @@
-# Teaching data
+# Data
 
-Use this directory only for **small, redistributable teaching datasets**.
-
-Suggested convention:
+Use this directory only for small datasets that can be redistributed for teaching.
 
 ```text
 data/
-├── raw/          # immutable source files when redistribution is allowed
-└── processed/    # derived teaching-ready files
+├── raw/          # original files when redistribution is permitted
+└── processed/    # derived files used in teaching activities
 ```
 
-For every dataset, document source, license, retrieval date, transformations, units, and variables. Do not commit sensitive, restricted, proprietary, or large operational datasets.
+For each dataset, document source, licence, retrieval date, variables, units, and transformations.
+
+Do not commit sensitive, proprietary, restricted, or large operational datasets. When data cannot be distributed, provide retrieval or simulation instructions instead.

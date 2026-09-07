@@ -1,10 +1,12 @@
 # Computational environment
 
-This template is language-neutral. Add only the environment files required by the actual course.
+Use this directory to document the software environment required to reproduce the teaching material.
+
+Add only the files needed by the activity.
 
 ## R
 
-Recommended for version-sensitive courses:
+Use `renv` when package versions are important.
 
 ```text
 renv.lock
@@ -13,7 +15,7 @@ renv/
 
 ## Python
 
-Choose one explicit mechanism, for example:
+Use one explicit dependency mechanism, such as:
 
 ```text
 requirements.txt
@@ -34,6 +36,6 @@ Project.toml
 Manifest.toml
 ```
 
-## Mixed-language courses
+## Mixed-language activities
 
-Document the exact versions of Quarto, interpreters, compilers, and key libraries. Prefer a reproducible environment over long manual installation instructions.
+Record relevant versions of interpreters, compilers, rendering software, and key libraries. Prefer reproducible environment files to long manual installation instructions.

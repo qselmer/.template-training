@@ -1,6 +1,6 @@
 <img align="right" src="assets/images/logo.svg" alt="Scientific training logo" width="170"/>
 
-# Scientific Training Template
+### Scientific Training Template
 
 Reusable structure for scientific teaching and training repositories.
 

@@ -14,19 +14,30 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  TEMPLATE_REPOSITORY: qselmer/.template-training
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - name: Render
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render course site
         run: quarto render
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Upload GitHub Pages artifact
+        if: github.repository != env.TEMPLATE_REPOSITORY
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
   deploy:
+    if: github.repository != 'qselmer/.template-training'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
   <title id="title">Scientific training repository logo</title>
   <desc id="desc">Open book with a connected modular network, representing structured scientific teaching and reproducible learning.</desc>
+
+  <!-- Opaque background prevents README heading rules from crossing the logo. -->
+  <circle cx="210" cy="210" r="204" fill="#FFFFFF"/>
+
   <g fill="none" stroke="#0B2F5B" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="210" cy="210" r="184" stroke-width="14"/>
 

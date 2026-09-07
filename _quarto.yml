@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "COURSE_TITLE"
+  site-url: "https://qselmer.github.io/REPO_NAME/"
+  repo-url: "https://github.com/qselmer/REPO_NAME"
+  repo-actions: [source, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - text: Lessons
+        menu:
+          - href: lessons/01-topic/index.qmd
+            text: "01 · First topic"
+      - href: exercises/index.qmd
+        text: Exercises
+      - href: resources/index.qmd
+        text: Resources
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    css: assets/css/styles.css
+
+execute:
+  freeze: auto
+  warning: false
+  message: false
+
+bibliography: references.bib

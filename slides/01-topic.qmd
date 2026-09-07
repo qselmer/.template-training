@@ -1,0 +1,27 @@
+---
+title: "01 · First topic"
+author: "Elmer Quispe-Salazar"
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+    footer: "qselmer.github.io"
+---
+
+## Learning objectives
+
+- Objective 1
+- Objective 2
+
+## Main concept
+
+Core teaching content.
+
+## Example
+
+Use figures, code, or a short demonstration.
+
+## Take-home messages
+
+1. Message 1
+2. Message 2

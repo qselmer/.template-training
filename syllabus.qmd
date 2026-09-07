@@ -1,0 +1,21 @@
+---
+title: "Syllabus"
+---
+
+## Audience
+
+Define the intended audience and prerequisites.
+
+## Format
+
+Describe delivery mode, duration, and expected workload.
+
+## Schedule
+
+| Session | Topic | Objectives | Materials |
+|---|---|---|---|
+| 01 | First topic | Core objectives | Lesson + slides + exercise |
+
+## Assessment or participation
+
+Describe exercises, assignments, or participation requirements when applicable.

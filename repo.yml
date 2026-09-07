@@ -1,0 +1,20 @@
+schema_version: 1
+repository:
+  owner: qselmer
+  name: REPO_NAME
+  title: COURSE_TITLE
+  type: type-training
+  status: active
+  visibility: public
+  description: "SHORT_DESCRIPTION"
+  topics:
+    - type-training
+    - site-teaching
+    - teaching
+    - reproducible-research
+integration:
+  github_pages: true
+  website_section: teaching
+  profile_include: true
+  website_url: "https://qselmer.github.io/REPO_NAME/"
+  repository_url: "https://github.com/qselmer/REPO_NAME"

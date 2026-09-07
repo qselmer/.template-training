@@ -1,0 +1,31 @@
+---
+title: "COURSE_TITLE"
+subtitle: "SHORT_DESCRIPTION"
+author:
+  - name: Elmer Quispe-Salazar
+    url: https://qselmer.github.io
+---
+
+## About this course
+
+Brief description of the course, workshop, or training series.
+
+## Learning outcomes
+
+By the end of this course, participants will be able to:
+
+1. Outcome 1.
+2. Outcome 2.
+3. Outcome 3.
+
+## Course structure
+
+| Module | Topic | Material |
+|---|---|---|
+| 01 | First topic | [Lesson](lessons/01-topic/index.qmd) · [Slides](slides/01-topic.qmd) · [Exercise](exercises/01-topic.qmd) |
+
+## Instructor
+
+**Elmer Quispe-Salazar** — quantitative marine ecology, fisheries science, marine data science, stock assessment, management strategy evaluation, and reproducible research.
+
+[Academic website](https://qselmer.github.io) · [GitHub](https://github.com/qselmer)

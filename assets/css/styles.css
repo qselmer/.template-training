@@ -1,0 +1,5 @@
+/* Minimal course-specific overrides. Keep the template visually restrained. */
+.quarto-title-block .quarto-title-banner {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}

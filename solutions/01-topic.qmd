@@ -1,0 +1,5 @@
+---
+title: "Solution 01 · First topic"
+---
+
+Instructor solution or reference implementation.

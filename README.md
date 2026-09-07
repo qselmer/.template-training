@@ -1,6 +1,6 @@
 <img align="right"  src="assets/images/logo.svg" alt="Scientific training logo" width="110">
 
-# Scientific Training Template
+# Scientific Training<br>Template
 
 <br clear="right">
 

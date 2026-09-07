@@ -8,6 +8,8 @@ repository:
   visibility: public
   description: "SHORT_DESCRIPTION"
   template_source: qselmer/.template-training
+  branding:
+    logo: assets/images/logo.svg
   topics:
     - type-training
     - site-teaching

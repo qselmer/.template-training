@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Scientific training repository logo</title>
+  <desc id="desc">Open book with a connected modular network, representing structured scientific teaching and reproducible learning.</desc>
+  <g fill="none" stroke="#0B2F5B" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="210" cy="210" r="184" stroke-width="14"/>
+
+    <path d="M92 260c45-17 86-10 118 22v82c-33-31-74-41-118-25z" stroke-width="13"/>
+    <path d="M328 260c-45-17-86-10-118 22v82c33-31 74-41 118-25z" stroke-width="13"/>
+    <path d="M75 278v80c48-14 92-6 135 27" stroke-width="10"/>
+    <path d="M345 278v80c-48-14-92-6-135 27" stroke-width="10"/>
+
+    <path d="M210 96v42M210 182v44M128 160h44M248 160h44" stroke-width="12"/>
+  </g>
+
+  <circle cx="210" cy="160" r="24" fill="#0B2F5B"/>
+  <rect x="181" y="62" width="58" height="58" rx="10" fill="#2AA7A1"/>
+  <rect x="99" y="131" width="58" height="58" rx="10" fill="#2AA7A1"/>
+  <rect x="263" y="131" width="58" height="58" rx="10" fill="#2AA7A1"/>
+  <rect x="181" y="217" width="58" height="58" rx="10" fill="#2AA7A1"/>
+</svg>

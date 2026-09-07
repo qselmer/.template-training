@@ -1,8 +1,19 @@
 ---
-title: "COURSE_TITLE"
-subtitle: "SHORT_DESCRIPTION"
+title: false
 page-layout: full
 ---
+
+::: {.course-hero}
+::: {.course-hero-copy}
+# COURSE_TITLE
+
+<p class="course-subtitle">SHORT_DESCRIPTION</p>
+:::
+
+::: {.course-hero-logo}
+<img src="assets/images/logo.svg" alt="Course repository logo"/>
+:::
+:::
 
 ## About
 

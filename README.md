@@ -1,8 +1,21 @@
+<table>
+<tr>
+<td width="72%" valign="top">
+
 # Scientific Training Repository Template
 
-Template for structured scientific teaching repositories, including single classes, workshops, short courses, technical training, and semester courses.
+Template for scientific teaching repositories, including single classes, workshops, short courses, technical training, and semester courses.
 
-The repository separates course metadata, teaching content, computation, assessment, and publication so that the same structure can be reused across quantitative science topics. Quarto is the current publishing engine, but the repository design is not tied conceptually to a single authoring system.
+The structure separates metadata, teaching content, computation, assessment, and publication workflows so that materials can be reused across quantitative and computational science topics. The current implementation uses Quarto for rendering and site generation, but the repository architecture is not tied to a single authoring system.
+
+</td>
+<td width="28%" align="center" valign="middle">
+
+<img src="assets/images/logo.svg" alt="Scientific training repository logo" width="180"/>
+
+</td>
+</tr>
+</table>
 
 ## Repository structure
 

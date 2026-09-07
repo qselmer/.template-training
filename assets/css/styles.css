@@ -1,9 +1,46 @@
 :root {
   --qs-max-width: 1180px;
+  --qs-navy: #0b2f5b;
+  --qs-teal: #2aa7a1;
 }
 
 .content {
   max-width: var(--qs-max-width);
+}
+
+.course-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 0.5rem 0 1.5rem;
+  border-bottom: 1px solid #d9dee5;
+  margin-bottom: 1.75rem;
+}
+
+.course-hero h1 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+.course-subtitle {
+  margin: 0;
+  max-width: 58rem;
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: #30343b;
+}
+
+.course-hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-hero-logo img {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
 }
 
 .module-meta {
@@ -22,4 +59,19 @@ code {
 
 .table {
   width: 100%;
+}
+
+@media (max-width: 760px) {
+  .course-hero {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .course-hero-logo {
+    justify-content: flex-start;
+  }
+
+  .course-hero-logo img {
+    width: 135px;
+  }
 }

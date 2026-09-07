@@ -8,7 +8,7 @@ Designed for modular, reproducible delivery of quantitative and computational sc
 
 <br clear="right"/>
 
-## Repository structure
+### Repository structure
 
 ```text
 .
@@ -46,7 +46,7 @@ Designed for modular, reproducible delivery of quantitative and computational sc
 └── .github/workflows/publish.yml
 ```
 
-## Teaching unit
+### Teaching unit
 
 The module is the basic teaching unit. Each module is designed to keep conceptual material, worked examples, practical work, exercises, and instructor notes together.
 
@@ -72,13 +72,13 @@ scientific interpretation
 
 This structure is suitable for quantitative ecology, fisheries science, stock assessment, management strategy evaluation, spatio-temporal modelling, programming, and related scientific-computing topics.
 
-## Authoring
+### Authoring
 
 Use `.qmd` as the current source format for new material. Retain `.Rmd`, Markdown, LaTeX, notebooks, or other formats only when required by the teaching activity or during migration of existing material.
 
 The repository structure should remain independent of the publishing tool: content, metadata, data, code, and reproducibility files should continue to have clear roles if the rendering system changes in the future.
 
-## Create a teaching repository
+### Create a teaching repository
 
 1. Select **Use this template → Create a new repository**.
 2. Choose a short, descriptive repository name.
@@ -91,7 +91,7 @@ The repository structure should remain independent of the publishing tool: conte
 
 See [`docs/USAGE.md`](docs/USAGE.md) for the operational workflow and [`docs/STRUCTURE.md`](docs/STRUCTURE.md) for the design of the repository.
 
-## Repository roles
+### Repository roles
 
 The template repository itself uses `type-template`. A repository created from it for an actual teaching activity uses `type-training`.
 

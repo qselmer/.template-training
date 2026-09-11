@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use or adapt these teaching materials, please cite them."
-title: "COURSE_TITLE"
-type: dataset
+message: "If you use or adapt this template, please cite the template repository."
+title: "Scientific Training Template"
+type: software
 authors:
   - family-names: "Quispe-Salazar"
     given-names: "Elmer"
     orcid: "https://orcid.org/0000-0001-9229-6379"
-repository-code: "https://github.com/qselmer/REPO_NAME"
-url: "https://qselmer.github.io/REPO_NAME/"
+repository-code: "https://github.com/qselmer/.template-training"
+url: "https://github.com/qselmer/.template-training"

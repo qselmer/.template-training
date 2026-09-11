@@ -6,22 +6,21 @@ Use **Use this template → Create a new repository**. Do not fork the template 
 
 ## Configure metadata
 
-Replace placeholders in:
+The generated repository initially inherits the identity of `qselmer/.template-training`. Before using it as a real teaching repository:
 
-- `repo.yml`
-- `course.yml`
-- `_quarto.yml`
-- `CITATION.cff`
-- root teaching files
-- the example module
+1. Update `repo.yml` with the real owner, repository name, title, visibility, description, lifecycle status, maturity stage, canonical URL, and `type-training`.
+2. Replace the inherited template metadata in `CITATION.cff` with the citation for the actual teaching activity.
+3. Replace placeholders in `course.yml`, `_quarto.yml`, the example module, and the teaching files.
+4. Keep exactly one canonical `type-*` topic in `repo.yml`: `type-training`.
 
 Then run:
 
 ```bash
+python -m pip install pyyaml
 python scripts/validate_structure.py
 ```
 
-A generated teaching repository should not pass validation while required placeholders remain.
+A generated teaching repository should not pass validation while required placeholders remain or while it still carries the template repository identity or citation.
 
 ## Select the teaching format
 
@@ -49,4 +48,4 @@ The workflow validates and renders changes. Pushes to `main` deploy the course s
 
 ## Academic integration
 
-Add `type-training` to classify the repository. Add `site-teaching` when the activity should also be listed on `qselmer.github.io/teaching/`.
+Use `type-training` as the single canonical repository-type topic. Add `site-teaching` only when the activity should also be listed on the academic website. Set `integration.profile.include` in `repo.yml` explicitly according to whether the repository should appear in the GitHub academic profile.
